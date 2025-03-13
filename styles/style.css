@@ -10,13 +10,13 @@
 
 .header {
   color: var(--accent-color);
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   background-image: var(--header-bg-image);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  block-size: 660px;
+  min-block-size: 660px;
   height: 100vh;
 }
 
