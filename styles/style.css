@@ -102,13 +102,14 @@
   outline: 1px solid var(--outline-hover);
 }
 
-.header__theme-menu-button:focus {
+.header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-color);
+  pointer-events: none;
 }
 
 .main {
@@ -178,7 +179,6 @@
   block-size: 100%;
   object-fit: cover;
   object-position: center;
-  width: 100%;
 }
 
 .footer {
@@ -186,7 +186,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 667px;
+  min-block-size: 668px;
   margin-top: 40px;
 }
 
