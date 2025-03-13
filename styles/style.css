@@ -2,7 +2,6 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  min-width: 375px;
   font-family: "IBM Plex Mono", sans-serif;
   font-size: 18px;
   background-color: var(--page-bg-color);
@@ -42,6 +41,7 @@
   top: 10px;
   font-size: 18px;
   line-height: 25px;
+  color: var(--header-rec);
 }
 
 .header__rec::after {
@@ -49,7 +49,7 @@
   position: absolute;
   width: 12px;
   height: 12px;
-  background-color: var(--accent-color);
+  background-color: var(--header-rec);
   border-radius: 50%;
   margin-top: 7px;
   margin-left: 10px;
@@ -78,7 +78,7 @@
 
 .header__theme-menu {
   margin-right: 7px;
-  margin-top: 60px;
+  margin-top: 64px;
   display: flex;
   justify-content: end;
 }
@@ -91,6 +91,7 @@
 
 .header__theme-menu-button {
   font-size: 18px;
+  width: 70px;
   background-color: inherit;
   color: var(--accent-color);
   border: none;
@@ -98,7 +99,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: var(--outline-hover);
+  outline: 1px solid var(--outline-hover);
 }
 
 .header__theme-menu-button:focus {
@@ -108,8 +109,6 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-color);
-  min-width: 70px;
-  min-height: 26px;
 }
 
 .main {
@@ -117,7 +116,7 @@
   margin-top: 40px;
 }
 .content__title {
-  color: var(--accent-color);
+  color: var(--content-title-color);
   background-color: inherit;
   font-size: 18px;
   font-weight: bold;
@@ -360,8 +359,8 @@
   .header__theme-menu-list {
     display: flex;
     margin-top: 8px;
-    margin-left: 25px;
-    gap: 20px;
+    margin-left: 20px;
+    gap: 10px;
   }
 
   .header__text {
@@ -384,12 +383,16 @@
   }
 
   .content:nth-child(3) {
-    padding-left: 7px;
+    padding-left: 0px;
     gap: 0;
   }
 
   .content:nth-child(3) .content__subtitle {
-    margin: 0;
+    margin: 0 0 0 7px;
+  }
+
+  .content:nth-child(3) ul {
+    margin: 0 0 0 7px;
   }
 
   .content__subtitle__cards {
@@ -397,6 +400,7 @@
   }
   .footer {
     height: 768px;
+    margin-top: 0;
   }
 
   .footer__title {
