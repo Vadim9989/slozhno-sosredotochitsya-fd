@@ -114,6 +114,7 @@
 
 .main {
   padding: 0 10px;
+  margin-top: 40px;
 }
 .content__title {
   color: var(--content-title-color);
@@ -310,7 +311,7 @@
 
   .footer {
     align-items: baseline;
-    min-block-size: 1024px;
+    min-height: 1024px;
     margin-top: 0;
   }
 
@@ -395,6 +396,10 @@
 
   .content__subtitle__cards {
     margin: 80px 0 20px 0;
+  }
+  .footer {
+    max-height: 768px;
+    margin-top: 0;
   }
 
   .footer__title {
