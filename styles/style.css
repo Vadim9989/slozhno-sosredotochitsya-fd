@@ -78,7 +78,6 @@
 }
 
 .header__theme-menu {
-  margin-right: 7px;
   margin-top: 64px;
   display: flex;
   justify-content: end;
@@ -222,12 +221,12 @@
 
 @media (min-width: 767px) {
   .header {
-    max-height: 1024px;
+    block-size: 1024px;
     padding-left: 0;
   }
   .header__rec {
     top: 19px;
-    right: 50px;
+    right: 48px;
   }
 
   .header__text {
@@ -239,6 +238,7 @@
   }
 
   .header__theme-menu {
+    margin-right: 10px;
     margin-top: 180px;
   }
 
@@ -343,7 +343,7 @@
     top: 723px;
   }
   .header {
-    height: 768px;
+    block-size: 768px;
   }
 
   .header__title {
