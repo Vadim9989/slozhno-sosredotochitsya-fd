@@ -12,6 +12,8 @@
   --header-bg-image: url(../images/cover-image-light.png);
   --page-bg-color: #fff1f7;
   --accent-color: #ff8dcb;
+  --accent-color-button: rgba(53, 52, 48, 1);
+  --accent-color-button-hover: rgba(50, 49, 45, 0.4);
   --title-color: #ffc2e6;
   --content-title-color: #353430;
   --outline-hover: rgba(255, 0, 112, 0.4);
@@ -31,6 +33,8 @@
     --page-bg-color: #fff1f7;
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
+    --accent-color-button: rgba(53, 52, 48, 1);
+    --accent-color-button-hover: rgba(50, 49, 45, 0.4);
     --content-title-color: #353430;
     --outline-hover: rgba(255, 0, 112, 0.4);
     --content-text-color: #353430;
