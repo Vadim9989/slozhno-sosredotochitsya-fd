@@ -9,7 +9,7 @@
   --page-bg-color: #000028;
   --accent-color: #ff0070;
   --accent-color-button: #ff0070;
-  --accent-color-button-hover: #ff0070;
+  --accent-color-button-hover: rgba(255, 0, 112, 0.4);
   --title-color: #db00ff;
   --content-title-color: #ff0070;
   --outline-hover: rgba(255, 0, 112, 0.4);
