@@ -308,11 +308,12 @@
 
   .footer {
     min-block-size: 1024px;
+    margin-top: 52px;
   }
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    padding-right: 30px;
+    padding-right: 0;
   }
 }
 
@@ -375,12 +376,12 @@
   .footer {
     min-block-size: 768px;
     min-height: 768px;
-    margin-top: 0;
+    margin-top: 46px;
   }
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     padding-right: 0;
-    margin-top: 88px;
+    margin-top: 0;
   }
 }
